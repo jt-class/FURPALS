@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ANE MAE CRESPO\\source\\repos\\FURPALS\\FURPALS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{21F075E2-6D98-40DB-BF12-360A7C1AB887}|FURPALS.csproj|c:\\users\\ane mae crespo\\source\\repos\\furpals\\furpals\\useracount.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{21F075E2-6D98-40DB-BF12-360A7C1AB887}|FURPALS.csproj|solutionrelative:useracount.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21F075E2-6D98-40DB-BF12-360A7C1AB887}|FURPALS.csproj|c:\\users\\ane mae crespo\\source\\repos\\furpals\\furpals\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{21F075E2-6D98-40DB-BF12-360A7C1AB887}|FURPALS.csproj|solutionrelative:mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserAcount.xaml",
+              "DocumentMoniker": "C:\\Users\\ANE MAE CRESPO\\source\\repos\\FURPALS\\FURPALS\\UserAcount.xaml",
+              "RelativeDocumentMoniker": "UserAcount.xaml",
+              "ToolTip": "C:\\Users\\ANE MAE CRESPO\\source\\repos\\FURPALS\\FURPALS\\UserAcount.xaml",
+              "RelativeToolTip": "UserAcount.xaml",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAAAHsAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-29T23:59:01.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\ANE MAE CRESPO\\source\\repos\\FURPALS\\FURPALS\\MainPage.xaml",
+              "RelativeDocumentMoniker": "MainPage.xaml",
+              "ToolTip": "C:\\Users\\ANE MAE CRESPO\\source\\repos\\FURPALS\\FURPALS\\MainPage.xaml",
+              "RelativeToolTip": "MainPage.xaml",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-29T23:44:42.845Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
