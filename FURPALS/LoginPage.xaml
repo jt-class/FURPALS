@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FURPALS.LoginPage"
+             Title="LoginPage"
+             BackgroundColor="#E9DADA">
+
+    <VerticalStackLayout
+        VerticalOptions="Center"
+        Spacing="10">
+        <Label
+            Text="Hello, welcome to"
+            FontSize="18"
+            HorizontalOptions="Center"/>
+        <Label
+            Text="furpals"
+            FontSize="30"
+            HorizontalOptions="Center"/>
+        <Image
+            Source="samplelogo.png"
+            WidthRequest="303"
+            HeightRequest="260"/>
+        <Entry
+            x:Name="Email_input"
+            Placeholder="Email"
+            TextColor="Black"
+            FontSize="18"
+            WidthRequest="300"
+            HeightRequest="45"
+            BackgroundColor="#000000"
+            Opacity="0.25"/>
+        <Entry
+            x:Name="Password_input"
+            Placeholder="Password"
+            TextColor="Black"
+            FontSize="18"
+            WidthRequest="300"
+            HeightRequest="45"
+            BackgroundColor="#000000"
+            Opacity="0.25"/>
+        <Button
+            x:Name="Signin_btn"
+            Text="Sign in"
+            TextColor="#EAEAEA"
+            FontSize="18"
+            WidthRequest="270"
+            HeightRequest="44"
+            BackgroundColor="#2D3340"
+            HorizontalOptions="Center"
+            Clicked="OnSignIn"/>
+        <HorizontalStackLayout
+            HorizontalOptions="Center">
+            <Label
+                VerticalTextAlignment="Center"
+                HeightRequest="50"
+                FontSize="18"
+                Text="First time here?"/>
+            <Button
+                x:Name="ToSignUp"
+                Text="Sign Up"
+                TextColor="BLACK"
+                WidthRequest="110"
+                FontSize="18"
+                HeightRequest="50"
+                HorizontalOptions="Start"
+                BackgroundColor="#E9DADa"
+                Clicked="ToSignUp"/>
+        </HorizontalStackLayout>
+    </VerticalStackLayout>
+</ContentPage>

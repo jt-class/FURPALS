@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FURPALS")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+7236cad82066e92c54ade2abd7541f8d25c3bdfa")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+b4b9cf1f6900fa047adb50257a48cf8118543101")]
 [assembly: System.Reflection.AssemblyProductAttribute("FURPALS")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FURPALS")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
