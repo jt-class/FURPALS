@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp3.MainPage"
+             Title="Messages"
+             BackgroundColor="#F4D4D1">
+
+    <ContentPage.Content>
+        <VerticalStackLayout Spacing="25.5">
+
+            <Grid BackgroundColor="#2A2A3A" Padding="10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <ImageButton Source="back_icon.png" Grid.Column="0" HeightRequest="40" WidthRequest="40" />
+
+                <Image Source="profile_image.png"
+                       Grid.Column="1"
+                       HorizontalOptions="End"
+                       WidthRequest="50" HeightRequest="50"
+                       Aspect="AspectFill" 
+                       Margin="0,0,10,0"/>
+            </Grid>
+
+            <Label Text="Messages"
+                   FontSize="24"
+                   HorizontalOptions="Center"
+                   FontAttributes="Bold"
+                   TextColor="#FF6C85"
+                   Margin="0,10,0,0" />
+
+            <SearchBar Placeholder="Search"
+                       BackgroundColor="White"
+                       Margin="10,10,10,0"
+                       TextColor="Black"
+                       FontSize="14"
+                       HeightRequest="40"
+                       />
+
+            <ScrollView>
+                <VerticalStackLayout Padding="10" Spacing="10">
+
+                    <StackLayout Orientation="Horizontal" Spacing="10">
+                        <Image Source="mamamoo_profile.png" WidthRequest="50" HeightRequest="50"/>
+                        <StackLayout>
+                            <Label Text="Mamamoo" FontSize="16" FontAttributes="Bold" TextColor="Black"/>
+                            <Label Text="I love you" FontSize="14" TextColor="Gray"/>
+                        </StackLayout>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" Spacing="10">
+                        <Image Source="default_avatar.png" WidthRequest="50" HeightRequest="50"/>
+                        <StackLayout>
+                            <Label Text="Sinoka" FontSize="16" FontAttributes="Bold" TextColor="Black"/>
+                            <Label Text="Hello" FontSize="14" TextColor="Gray"/>
+                        </StackLayout>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" Spacing="10">
+                        <Image Source="default_avatar.png" WidthRequest="50" HeightRequest="50"/>
+                        <StackLayout>
+                            <Label Text="Roxanne" FontSize="16" FontAttributes="Bold" TextColor="Black"/>
+                            <Label Text="Pretty" FontSize="14" TextColor="Gray"/>
+                        </StackLayout>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" Spacing="10">
+                        <Image Source="default_avatar.png" WidthRequest="50" HeightRequest="50"/>
+                        <StackLayout>
+                            <Label Text="Mesias" FontSize="16" FontAttributes="Bold" TextColor="Black"/>
+                            <Label Text="Cutieee" FontSize="14" TextColor="Gray"/>
+                        </StackLayout>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" Spacing="10">
+                        <Image Source="default_avatar.png" WidthRequest="50" HeightRequest="50"/>
+                        <StackLayout>
+                            <Label Text="Dog" FontSize="16" FontAttributes="Bold" TextColor="Black"/>
+                            <Label Text="R u okay?" FontSize="14" TextColor="Gray"/>
+                        </StackLayout>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" Spacing="10">
+                        <Image Source="default_avatar.png" WidthRequest="50" HeightRequest="50"/>
+                        <StackLayout>
+                            <Label Text="Cat" FontSize="16" FontAttributes="Bold" TextColor="Black"/>
+                            <Label Text="Happy day" FontSize="14" TextColor="Gray"/>
+                        </StackLayout>
+                    </StackLayout>
+                </VerticalStackLayout>
+            </ScrollView>
+
+            <Grid BackgroundColor="#2A2A3A" HeightRequest="60" Padding="10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <ImageButton Source="home_icon.png" Grid.Column="0" HeightRequest="25" WidthRequest="30" />
+                <ImageButton Source="plus_icon.png" Grid.Column="1" HeightRequest="25" WidthRequest="30" />
+                <ImageButton Source="message_icon.png" Grid.Column="2" HeightRequest="25" WidthRequest="30" />
+                <ImageButton Source="settings_icon.png" Grid.Column="3" HeightRequest="25" WidthRequest="30" />
+            </Grid>
+
+        </VerticalStackLayout>
+    </ContentPage.Content>
+</ContentPage>
