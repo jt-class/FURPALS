@@ -973,3 +973,7 @@ C:\Users\ANE MAE CRESPO\source\repos\FURPALS\FURPALS\obj\Debug\net7.0-android\st
 C:\Users\ANE MAE CRESPO\source\repos\FURPALS\FURPALS\obj\Debug\net7.0-android\stamp\_GenerateJavaStubs.stamp
 C:\Users\ANE MAE CRESPO\source\repos\FURPALS\FURPALS\obj\Debug\net7.0-android\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\ANE MAE CRESPO\source\repos\FURPALS\FURPALS\obj\Debug\net7.0-android\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\ANE MAE CRESPO\source\repos\FURPALS\FURPALS\obj\Debug\net7.0-android\resizetizer\r\drawable\logo.png
+C:\Users\ANE MAE CRESPO\source\repos\FURPALS\FURPALS\obj\Debug\net7.0-android\resizetizer\r\drawable\furpals.png
+C:\Users\ANE MAE CRESPO\source\repos\FURPALS\FURPALS\obj\Debug\net7.0-android\resizetizer\r\drawable\mail.png
+C:\Users\ANE MAE CRESPO\source\repos\FURPALS\FURPALS\obj\Debug\net7.0-android\resizetizer\r\drawable\lock_01.png

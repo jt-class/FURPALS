@@ -4,11 +4,13 @@ public partial class LoginPage : ContentPage
 {
 	public LoginPage()
 	{
-        InitializeComponent();
+      InitializeComponent();
 	}
-	public void OnSignIn(object sender, EventArgs e){ 
-	
-	}
+
+    public void ToSignIn(object sender, EventArgs e)
+	{
+        
+    }
 	public void ToSignUp(object sender, EventArgs e)
 	{
 

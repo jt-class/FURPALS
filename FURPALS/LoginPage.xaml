@@ -5,66 +5,114 @@
              Title="LoginPage"
              BackgroundColor="#E9DADA">
 
-    <VerticalStackLayout
-        VerticalOptions="Center"
-        Spacing="10">
+    <StackLayout>
+
         <Label
             Text="Hello, welcome to"
-            FontSize="18"
-            HorizontalOptions="Center"/>
-        <Label
-            Text="furpals"
-            FontSize="30"
+            FontSize="20"
+            Margin="0,45,0,0"
             HorizontalOptions="Center"/>
         <Image
+            Source="furpals.png"
+            Margin="0,0,0,20"
+            WidthRequest="300"
+            HeightRequest="100"/>
+
+        <Image
             Source="samplelogo.png"
-            WidthRequest="303"
-            HeightRequest="260"/>
-        <Entry
-            x:Name="Email_input"
-            Placeholder="Email"
-            TextColor="Black"
-            FontSize="18"
-            WidthRequest="300"
-            HeightRequest="45"
-            BackgroundColor="#000000"
-            Opacity="0.25"/>
-        <Entry
-            x:Name="Password_input"
-            Placeholder="Password"
-            TextColor="Black"
-            FontSize="18"
-            WidthRequest="300"
-            HeightRequest="45"
-            BackgroundColor="#000000"
-            Opacity="0.25"/>
-        <Button
-            x:Name="Signin_btn"
-            Text="Sign in"
-            TextColor="#EAEAEA"
-            FontSize="18"
-            WidthRequest="270"
-            HeightRequest="44"
-            BackgroundColor="#2D3340"
-            HorizontalOptions="Center"
-            Clicked="OnSignIn"/>
+            Margin="0,-100,0,0"
+            WidthRequest="250"
+            HeightRequest="300"/>
+        <VerticalStackLayout
+            Spacing="20">
+            <Frame
+                BackgroundColor="#ccbfc1"
+                CornerRadius="10"
+                Padding="0"
+                HasShadow="False"
+                WidthRequest="330"
+                HeightRequest="50"
+                VerticalOptions="Center">
+                <HorizontalStackLayout
+                    Spacing="0"
+                    Padding="10,0">
+                    <Image
+                        Source="mail.png"
+                        WidthRequest="24"
+                        HeightRequest="24"
+                        VerticalOptions="Center"/>
+                    <Entry
+                        x:Name="Email_input"
+                        Placeholder="Email"
+                        TextColor="Black"
+                        FontSize="18"
+                        BackgroundColor="Transparent"
+                        WidthRequest="280"
+                        VerticalOptions="Center"/>
+                </HorizontalStackLayout>
+            </Frame>
+            <Frame
+                BackgroundColor="#ccbfc1"
+                CornerRadius="10"
+                Padding="0"
+                HasShadow="False"
+                WidthRequest="330"
+                HeightRequest="50"
+                VerticalOptions="Center">
+                <HorizontalStackLayout
+                    Spacing="0"
+                    Padding="10,0">
+                    <Image
+                        Source="lock_01.png"
+                        WidthRequest="24"
+                        HeightRequest="24"
+                        VerticalOptions="Center"/>
+                    <Entry
+                        x:Name="Password_input"
+                        Placeholder="Password"
+                        IsPassword="True"
+                        TextColor="Black"
+                        FontSize="18"
+                        BackgroundColor="Transparent"
+                        WidthRequest="280"
+                        VerticalOptions="Center"/>
+                </HorizontalStackLayout>
+            </Frame>
+            <Button
+                x:Name="ToSignin_btn"
+                Text="Sign in"
+                TextColor="#EAEAEA"
+                FontSize="18"
+                WidthRequest="330"
+                HeightRequest="50"
+                BackgroundColor="#2D3340"
+                CornerRadius="10"
+                HorizontalOptions="Center"
+                Clicked="ToSignIn"/>
+        </VerticalStackLayout>
+
         <HorizontalStackLayout
             HorizontalOptions="Center">
             <Label
                 VerticalTextAlignment="Center"
-                HeightRequest="50"
+                HeightRequest="45"
                 FontSize="18"
-                Text="First time here?"/>
+                TextColor="#000000"
+                Opacity="0.25"
+                Text="First time here?"
+                Margin="10,0,0,0"/>
             <Button
-                x:Name="ToSignUp"
+                x:Name="ToSignUp_btn"
                 Text="Sign Up"
                 TextColor="BLACK"
                 WidthRequest="110"
                 FontSize="18"
+                Margin="0,0,0,0"
                 HeightRequest="50"
                 HorizontalOptions="Start"
                 BackgroundColor="#E9DADa"
                 Clicked="ToSignUp"/>
+           
         </HorizontalStackLayout>
-    </VerticalStackLayout>
+    </StackLayout>
 </ContentPage>

@@ -1,9 +1,9 @@
-namespace Messages
+namespace FURPALS
 {
-    public partial class MainPage : ContentPage
+    public partial class Messages : ContentPage
     {
 
-        public MainPage()
+        public Messages()
         {
             InitializeComponent();
         }

@@ -14,5 +14,13 @@
     Title="UserAccountPage"
     ContentTemplate="{DataTemplate local:UserAccountPage}"
     Route="UserAccountPage" />
+    <ShellContent
+    Title="Messages"
+    ContentTemplate="{DataTemplate local:Messages}"
+    Route="Messages" />
+    <ShellContent
+    Title="LoginPage"
+    ContentTemplate="{DataTemplate local:LoginPage}"
+    Route="LoginPage" />
 
 </Shell>
