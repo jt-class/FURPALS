@@ -1,7 +1,13 @@
 {
   "ExpandedNodes": [
     "",
-    "\\FURPALS"
+    "\\FURPALS",
+    "\\FURPALS\\Resources",
+    "\\FURPALS\\Resources\\Images",
+    "\\FURPALS\\Resources\\Raw",
+    "\\FURPALS\\Resources\\Splash",
+    "\\FURPALS\\Resources\\Styles"
   ],
+  "SelectedNode": "\\FURPALS\\FURPALS.sln",
   "PreviewInSolutionExplorer": false
 }
