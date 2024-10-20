@@ -112,7 +112,7 @@
                 HorizontalOptions="Start"
                 BackgroundColor="#E9DADa"
                 Clicked="ToSignUp"/>
-           
+
         </HorizontalStackLayout>
     </StackLayout>
 </ContentPage>

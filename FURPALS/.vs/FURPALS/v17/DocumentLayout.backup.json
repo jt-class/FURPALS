@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "C:\\Users\\ANE MAE CRESPO\\source\\repos\\FURPALS\\FURPALS\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{21F075E2-6D98-40DB-BF12-360A7C1AB887}|FURPALS.csproj|c:\\users\\ane mae crespo\\source\\repos\\furpals\\furpals\\messages.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21F075E2-6D98-40DB-BF12-360A7C1AB887}|FURPALS.csproj|solutionrelative:messages.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21F075E2-6D98-40DB-BF12-360A7C1AB887}|FURPALS.csproj|c:\\users\\ane mae crespo\\source\\repos\\furpals\\furpals\\messages.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{21F075E2-6D98-40DB-BF12-360A7C1AB887}|FURPALS.csproj|solutionrelative:messages.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21F075E2-6D98-40DB-BF12-360A7C1AB887}|FURPALS.csproj|c:\\users\\ane mae crespo\\source\\repos\\furpals\\furpals\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21F075E2-6D98-40DB-BF12-360A7C1AB887}|FURPALS.csproj|solutionrelative:loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21F075E2-6D98-40DB-BF12-360A7C1AB887}|FURPALS.csproj|c:\\users\\ane mae crespo\\source\\repos\\furpals\\furpals\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{21F075E2-6D98-40DB-BF12-360A7C1AB887}|FURPALS.csproj|solutionrelative:loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{21F075E2-6D98-40DB-BF12-360A7C1AB887}|FURPALS.csproj|c:\\users\\ane mae crespo\\source\\repos\\furpals\\furpals\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{21F075E2-6D98-40DB-BF12-360A7C1AB887}|FURPALS.csproj|solutionrelative:mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,24 +27,12 @@
       "RelativeMoniker": "D:0:0:{21F075E2-6D98-40DB-BF12-360A7C1AB887}|FURPALS.csproj|solutionrelative:platforms\\android\\androidmanifest.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{21F075E2-6D98-40DB-BF12-360A7C1AB887}|FURPALS.csproj|c:\\users\\ane mae crespo\\source\\repos\\furpals\\furpals\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{21F075E2-6D98-40DB-BF12-360A7C1AB887}|FURPALS.csproj|solutionrelative:loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{21F075E2-6D98-40DB-BF12-360A7C1AB887}|FURPALS.csproj|c:\\users\\ane mae crespo\\source\\repos\\furpals\\furpals\\newpage1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{21F075E2-6D98-40DB-BF12-360A7C1AB887}|FURPALS.csproj|solutionrelative:newpage1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{21F075E2-6D98-40DB-BF12-360A7C1AB887}|FURPALS.csproj|c:\\users\\ane mae crespo\\source\\repos\\furpals\\furpals\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21F075E2-6D98-40DB-BF12-360A7C1AB887}|FURPALS.csproj|solutionrelative:loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{21F075E2-6D98-40DB-BF12-360A7C1AB887}|FURPALS.csproj|c:\\users\\ane mae crespo\\source\\repos\\furpals\\furpals\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{21F075E2-6D98-40DB-BF12-360A7C1AB887}|FURPALS.csproj|solutionrelative:mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21F075E2-6D98-40DB-BF12-360A7C1AB887}|FURPALS.csproj|c:\\users\\ane mae crespo\\source\\repos\\furpals\\furpals\\messages.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{21F075E2-6D98-40DB-BF12-360A7C1AB887}|FURPALS.csproj|solutionrelative:messages.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{21F075E2-6D98-40DB-BF12-360A7C1AB887}|FURPALS.csproj|c:\\users\\ane mae crespo\\source\\repos\\furpals\\furpals\\newpage1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -54,37 +58,60 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
+              "Title": "Messages.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ANE MAE CRESPO\\source\\repos\\FURPALS\\FURPALS\\Messages.xaml.cs",
+              "RelativeDocumentMoniker": "Messages.xaml.cs",
+              "ToolTip": "C:\\Users\\ANE MAE CRESPO\\source\\repos\\FURPALS\\FURPALS\\Messages.xaml.cs",
+              "RelativeToolTip": "Messages.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T11:42:21.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginPage.xaml",
+              "DocumentMoniker": "C:\\Users\\ANE MAE CRESPO\\source\\repos\\FURPALS\\FURPALS\\LoginPage.xaml",
+              "RelativeDocumentMoniker": "LoginPage.xaml",
+              "ToolTip": "C:\\Users\\ANE MAE CRESPO\\source\\repos\\FURPALS\\FURPALS\\LoginPage.xaml",
+              "RelativeToolTip": "LoginPage.xaml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACwAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-19T03:50:19.109Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Messages.xaml",
               "DocumentMoniker": "C:\\Users\\ANE MAE CRESPO\\source\\repos\\FURPALS\\FURPALS\\Messages.xaml",
               "RelativeDocumentMoniker": "Messages.xaml",
               "ToolTip": "C:\\Users\\ANE MAE CRESPO\\source\\repos\\FURPALS\\FURPALS\\Messages.xaml",
               "RelativeToolTip": "Messages.xaml",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-20T09:18:54.158Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-20T09:18:54.158Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "MauiProgram.cs",
               "DocumentMoniker": "C:\\Users\\ANE MAE CRESPO\\source\\repos\\FURPALS\\FURPALS\\MauiProgram.cs",
               "RelativeDocumentMoniker": "MauiProgram.cs",
               "ToolTip": "C:\\Users\\ANE MAE CRESPO\\source\\repos\\FURPALS\\FURPALS\\MauiProgram.cs",
               "RelativeToolTip": "MauiProgram.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T09:18:46.71Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-20T09:18:46.71Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "AndroidManifest.xml",
               "DocumentMoniker": "C:\\Users\\ANE MAE CRESPO\\source\\repos\\FURPALS\\FURPALS\\Platforms\\Android\\AndroidManifest.xml",
               "RelativeDocumentMoniker": "Platforms\\Android\\AndroidManifest.xml",
@@ -92,25 +119,11 @@
               "RelativeToolTip": "Platforms\\Android\\AndroidManifest.xml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
-              "WhenOpened": "2024-10-20T09:17:47.65Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-20T09:17:47.65Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "LoginPage.xaml",
-              "DocumentMoniker": "C:\\Users\\ANE MAE CRESPO\\source\\repos\\FURPALS\\FURPALS\\LoginPage.xaml",
-              "RelativeDocumentMoniker": "LoginPage.xaml",
-              "ToolTip": "C:\\Users\\ANE MAE CRESPO\\source\\repos\\FURPALS\\FURPALS\\LoginPage.xaml",
-              "RelativeToolTip": "LoginPage.xaml",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAAEwAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-19T03:50:19.109Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "NewPage1.xaml",
               "DocumentMoniker": "C:\\Users\\ANE MAE CRESPO\\source\\repos\\FURPALS\\FURPALS\\NewPage1.xaml",
               "RelativeDocumentMoniker": "NewPage1.xaml",
@@ -118,25 +131,23 @@
               "RelativeToolTip": "NewPage1.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-20T09:07:45.749Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-20T09:07:45.749Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "LoginPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\ANE MAE CRESPO\\source\\repos\\FURPALS\\FURPALS\\LoginPage.xaml.cs",
               "RelativeDocumentMoniker": "LoginPage.xaml.cs",
               "ToolTip": "C:\\Users\\ANE MAE CRESPO\\source\\repos\\FURPALS\\FURPALS\\LoginPage.xaml.cs",
               "RelativeToolTip": "LoginPage.xaml.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAgwAsAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowCcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T03:56:13.472Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-19T03:56:13.472Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "MainPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\ANE MAE CRESPO\\source\\repos\\FURPALS\\FURPALS\\MainPage.xaml.cs",
               "RelativeDocumentMoniker": "MainPage.xaml.cs",
@@ -144,12 +155,11 @@
               "RelativeToolTip": "MainPage.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T04:47:42.032Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-19T04:47:42.032Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\ANE MAE CRESPO\\source\\repos\\FURPALS\\FURPALS\\App.xaml",
               "RelativeDocumentMoniker": "App.xaml",
@@ -161,7 +171,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "NewPage1.xaml.cs",
               "DocumentMoniker": "C:\\Users\\ANE MAE CRESPO\\source\\repos\\FURPALS\\FURPALS\\NewPage1.xaml.cs",
               "RelativeDocumentMoniker": "NewPage1.xaml.cs",
@@ -173,7 +183,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "AppShell.xaml",
               "DocumentMoniker": "C:\\Users\\ANE MAE CRESPO\\source\\repos\\FURPALS\\FURPALS\\AppShell.xaml",
               "RelativeDocumentMoniker": "AppShell.xaml",
@@ -185,7 +195,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "MainPage.xaml",
               "DocumentMoniker": "C:\\Users\\ANE MAE CRESPO\\source\\repos\\FURPALS\\FURPALS\\MainPage.xaml",
               "RelativeDocumentMoniker": "MainPage.xaml",
