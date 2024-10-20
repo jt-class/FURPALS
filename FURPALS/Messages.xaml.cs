@@ -1,36 +1,39 @@
-namespace Messages
+namespace Messages;
+public partial class Messages : ContentPage
 {
-    public partial class MainPage : ContentPage
+
+    public Messages()
+    {
+        InitializeComponent();
+    }
+
+    private void InitializeComponent()
+    {
+        throw new NotImplementedException();
+    }
+
+    private void OnBackButtonClicked(object sender, EventArgs e)
     {
 
-        public MainPage()
-        {
-            InitializeComponent();
-        }
+    }
 
-        private void OnBackButtonClicked(object sender, EventArgs e)
-        {
+    private void OnHomeButtonClicked(object sender, EventArgs e)
+    {
 
-        }
+    }
 
-        private void OnHomeButtonClicked(object sender, EventArgs e)
-        {
+    private void OnPlusButtonClicked(object sender, EventArgs e)
+    {
 
-        }
+    }
 
-        private void OnPlusButtonClicked(object sender, EventArgs e)
-        {
+    private void OnMessageButtonClicked(object sender, EventArgs e)
+    {
 
-        }
+    }
 
-        private void OnMessageButtonClicked(object sender, EventArgs e)
-        {
+    private void OnSettingsButtonClicked(object sender, EventArgs e)
+    {
 
-        }
-
-        private void OnSettingsButtonClicked(object sender, EventArgs e)
-        {
-
-        }
     }
 }

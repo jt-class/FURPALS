@@ -11,14 +11,10 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyMetadataAttribute("Microsoft.Maui.ApplicationModel.AppInfo.PackageName", "c507f9d0-deb3-4fea-ad35-d0a852e992bb")]
-[assembly: System.Reflection.AssemblyMetadataAttribute("Microsoft.Maui.ApplicationModel.AppInfo.PublisherName", "User Name")]
-[assembly: System.Reflection.AssemblyMetadataAttribute("Microsoft.Maui.ApplicationModel.AppInfo.Name", "FURPALS")]
-[assembly: System.Reflection.AssemblyMetadataAttribute("Microsoft.Maui.ApplicationModel.AppInfo.Version", "1.0.0.1")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("FURPALS")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+b4b9cf1f6900fa047adb50257a48cf8118543101")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+11ebfcc1002a40ca0b3f274f9b5698914ea944ad")]
 [assembly: System.Reflection.AssemblyProductAttribute("FURPALS")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FURPALS")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
