@@ -1,41 +1,179 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="FURPALS.MainPage">
+             x:Class="FURPALS.MainPage"
+             Title="MainPage"
+             Shell.NavBarIsVisible="False"
+             Background="#E9DADA">
 
-    <ScrollView>
-        <VerticalStackLayout
-            Spacing="25"
-            Padding="30,0"
-            VerticalOptions="Center">
+    <StackLayout>
 
-            <Image
-                Source="dotnet_bot.png"
-                SemanticProperties.Description="Cute dot net bot waving hi to you!"
-                HeightRequest="200"
-                HorizontalOptions="Center" />
+        <Image
+            Source="logo.png"
+            HorizontalOptions="Start"
+            Margin="70,20,0,0">
+        </Image>
+
+        <Image
+            Source="furpals.png"
+            HorizontalOptions="End"
+            WidthRequest="150"
+            Margin="0,-65,90,0">
+        </Image>
+
+        <Label
+            Margin="0,35,0,0"
+            Text="Enter your details below to create your account and get started"
+            FontSize="10"
+            HorizontalOptions="Center"/>
+
+        <Label
+            Text="Username"
+            TextColor="#000000"
+            FontSize="18"
+            Opacity="0.60"
+            Margin="45,20,0,0">
+
+        </Label>
+
+
+        <Border 
+            Stroke="#F5F5F5"
+            WidthRequest="350"   
+            StrokeThickness="4"
+            StrokeShape="RoundRectangle 10,10,10,10"
+            Background="#000000"
+            Opacity="0.20"
+            Padding="16,8"
+            HorizontalOptions="Center">
+
+            <Entry
+                x:Name="Username_input"
+            Placeholder="Enter your username here"
+            TextColor="#000000"
+            Opacity="0.60"
+            BackgroundColor="#000000"
+            WidthRequest="320"
+            HeightRequest="47"/>
+
+        </Border>
+
+        <Label
+            Text="Email"
+            TextColor="#000000"
+            Opacity="0.60"
+            FontSize="18"
+            Margin="45,1,0,0">
+        </Label>
+
+        <Border
+            Stroke="#F5F5F5"
+            WidthRequest="350"   
+            StrokeThickness="4"
+            StrokeShape="RoundRectangle 10,10,10,10"
+            Background="#000000"
+            Opacity="0.20"
+            Padding="16,8"
+            HorizontalOptions="Center">
+
+            <Entry
+                x:Name="Email_input"
+                Placeholder="Enter your email here"
+                TextColor="#000000"
+                Opacity="0.60"
+                BackgroundColor="#000000" 
+                WidthRequest="320"
+                HeightRequest="47"/>
+        </Border>
+
+        <Label
+            Text="Password"
+            TextColor="#000000"
+            Opacity="0.60"
+            FontSize="18"
+            Margin="45,1,0,0">
+        </Label>
+
+        <Border
+            Stroke="#F5F5F5"
+            WidthRequest="350"   
+            StrokeThickness="4"
+            StrokeShape="RoundRectangle 10,10,10,10"
+            Background="#000000"
+            Opacity="0.20"
+            Padding="16,8"
+            HorizontalOptions="Center">
+
+            <Entry
+                x:Name="Password_input"
+                Placeholder="Enter your password here"
+                TextColor="#000000"
+                Opacity="0.60"
+                BackgroundColor="#000000" 
+                WidthRequest="320"
+                HeightRequest="47"/>
+        </Border>
+
+        <Label
+            Text="Confirm Password"
+            TextColor="#000000" 
+            Opacity="0.60"
+            FontSize="18"
+            Margin="45,1,0,0">
+        </Label>
+        <Border
+            Stroke="#F5F5F5"
+            WidthRequest="350"   
+            StrokeThickness="4"
+            StrokeShape="RoundRectangle 10,10,10,10"
+            Background="#000000"
+            Opacity="0.20"
+            Padding="16,8"
+            HorizontalOptions="Center">
+
+            <Entry
+                x:Name="Confirmpass_input"
+                Placeholder="Confirm your password here"
+                TextColor="#000000"
+                Opacity="0.60"
+                BackgroundColor="#000000" 
+                WidthRequest="320"
+                HeightRequest="47"/>
+        </Border>
+
+        <Button
+            x:Name="ToCreateAccount_btn"
+            Text="Create account"
+            TextColor="#ffffff"
+            FontSize="18"
+            WidthRequest="320"
+            HeightRequest="47"
+            Margin="0,35,0,0"
+            BackgroundColor="#2D3340"
+            HorizontalOptions="Center"
+            Clicked="ToCreateAccount"/>
+
+
+        <HorizontalStackLayout
+            HorizontalOptions="Center">
 
             <Label
-                Text="Hello, World!"
-                SemanticProperties.HeadingLevel="Level1"
-                FontSize="32"
-                HorizontalOptions="Center" />
-
-            <Label
-                Text="Welcome to .NET Multi-platform App UI"
-                SemanticProperties.HeadingLevel="Level2"
-                SemanticProperties.Description="Welcome to dot net Multi platform App U I"
-                FontSize="18"
-                HorizontalOptions="Center" />
+            VerticalTextAlignment="Center"
+            HeightRequest="40"
+            FontSize="15"
+            TextColor="#000000"
+            Opacity="0.35"
+            Text="Already have an account?"
+            Margin="20,0,0,0"/>
 
             <Button
-                x:Name="CounterBtn"
-                Text="Click me"
-                SemanticProperties.Hint="Counts the number of times you click"
-                Clicked="OnCounterClicked"
-                HorizontalOptions="Center" />
+            x:Name="ToLogin_btn"
+            Text="Log in"
+            TextColor="BLACK"
+            HorizontalOptions="Start"
+            BackgroundColor="#E9DADa"
+            Clicked="ToLogin"/>
 
-        </VerticalStackLayout>
-    </ScrollView>
-
+        </HorizontalStackLayout>
+    </StackLayout>
 </ContentPage>

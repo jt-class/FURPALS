@@ -6,6 +6,7 @@ public partial class LoginPage : ContentPage
 {
 	public LoginPage()
 	{
+<<<<<<< HEAD
         InitializeComponent();
 	}
     private async void OnSignIn(object sender, EventArgs e)
@@ -17,6 +18,17 @@ public partial class LoginPage : ContentPage
             await DisplayAlert("Error", "Please enter a valid email address.", "OK");
             return;
         }
+=======
+      InitializeComponent();
+	}
+
+    public void ToSignIn(object sender, EventArgs e)
+	{
+        
+    }
+	public void ToSignUp(object sender, EventArgs e)
+	{
+>>>>>>> dec8326d097d0bfe3a5b5a97a6078851de10549b
 
         if (!IsValidPassword(password))
         {

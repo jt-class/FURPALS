@@ -43,13 +43,27 @@ build_metadata.AdditionalFiles.ManifestResourceName = FURPALS.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
+<<<<<<< HEAD
 [C:/Users/roxanne palma/source/repos/FURPALS/FURPALS/Messages.xaml]
+=======
+[C:/Users/ANE MAE CRESPO/source/repos/FURPALS/FURPALS/Messages.xaml]
+>>>>>>> dec8326d097d0bfe3a5b5a97a6078851de10549b
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = FURPALS.Messages.xaml
 build_metadata.AdditionalFiles.TargetPath = Messages.xaml
 build_metadata.AdditionalFiles.RelativePath = Messages.xaml
 
+<<<<<<< HEAD
 [C:/Users/roxanne palma/source/repos/FURPALS/FURPALS/Resources/Styles/Colors.xaml]
+=======
+[C:/Users/ANE MAE CRESPO/source/repos/FURPALS/FURPALS/NewPage1.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FURPALS.NewPage1.xaml
+build_metadata.AdditionalFiles.TargetPath = NewPage1.xaml
+build_metadata.AdditionalFiles.RelativePath = NewPage1.xaml
+
+[C:/Users/ANE MAE CRESPO/source/repos/FURPALS/FURPALS/Resources/Styles/Colors.xaml]
+>>>>>>> dec8326d097d0bfe3a5b5a97a6078851de10549b
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = FURPALS.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml

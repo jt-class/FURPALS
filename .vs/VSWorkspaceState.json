@@ -1,5 +1,6 @@
 {
   "ExpandedNodes": [
+<<<<<<< HEAD
     "",
     "\\FURPALS",
     "\\FURPALS\\Resources",
@@ -9,5 +10,10 @@
     "\\FURPALS\\Resources\\Styles"
   ],
   "SelectedNode": "\\FURPALS\\FURPALS.sln",
+=======
+    ""
+  ],
+  "SelectedNode": "\\FURPALS.sln",
+>>>>>>> dec8326d097d0bfe3a5b5a97a6078851de10549b
   "PreviewInSolutionExplorer": false
 }

@@ -9,7 +9,11 @@
             InitializeComponent();
         }
 
-        private async void OnCounterClicked(object sender, EventArgs e)
+        private async void ToLogin(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new LoginPage());
+        }
+        private async void ToCreateAccount(object sender, EventArgs eventArgs)
         {
             await Navigation.PushAsync(new LoginPage());
         }
