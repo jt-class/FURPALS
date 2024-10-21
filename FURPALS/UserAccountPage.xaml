@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="FURPALS.UserAccountPage"
              Title="UserAcount"
-             Shell.NavBarIsVisible="False"[
+             Shell.NavBarIsVisible="False"
              BackgroundColor="#F8E9E9">
     <Grid>
         <Grid>

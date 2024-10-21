@@ -69,7 +69,7 @@
             <ImageButton
                 Source="home.png"
                 WidthRequest="32"
-                HeightRequest="32"
+                HeightRequest="25"
                 HorizontalOptions="Center"
                 VerticalOptions="Center"
                 Command="{Binding NavigateToHomeCommand}"
@@ -80,7 +80,7 @@
             <ImageButton
                 Source="search_nav.png"
                 WidthRequest="32"
-                HeightRequest="32"
+                HeightRequest="25"
                 HorizontalOptions="Center"
                 VerticalOptions="Center"
                 Command="{Binding NavigateToSearchCommand}"
@@ -91,7 +91,7 @@
             <ImageButton
                 Source="add_nav.png"
                 WidthRequest="32"
-                HeightRequest="32"
+                HeightRequest="25"
                 HorizontalOptions="Center"
                 VerticalOptions="Center"
                 Command="{Binding NavigateToAddCommand}"
@@ -102,7 +102,7 @@
             <ImageButton
                 Source="messages_nav.png"
                 WidthRequest="32"
-                HeightRequest="32"
+                HeightRequest="25"
                 HorizontalOptions="Center"
                 VerticalOptions="Center"
                 Command="{Binding NavigateToNotificationsCommand}"
@@ -113,7 +113,7 @@
             <ImageButton
                 Source="profile_nav.png"
                 WidthRequest="32"
-                HeightRequest="32"
+                HeightRequest="25"
                 HorizontalOptions="Center"
                 VerticalOptions="Center"
                 Command="{Binding NavigateToProfileCommand}"

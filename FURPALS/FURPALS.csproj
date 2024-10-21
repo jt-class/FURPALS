@@ -48,20 +48,30 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <MauiXaml Remove="resources\images\UserProfile.xaml" />
+	</ItemGroup>
+
+	<ItemGroup>
 	  <None Remove="Resources\Images\add_nav.png" />
+	  <None Remove="Resources\Images\back_icon.png" />
 	  <None Remove="Resources\Images\furpals.png" />
 	  <None Remove="Resources\Images\heart.png" />
 	  <None Remove="Resources\Images\heart_icon.png" />
 	  <None Remove="Resources\Images\home.png" />
+	  <None Remove="Resources\Images\home_icon.png" />
 	  <None Remove="Resources\Images\home_nav.png" />
 	  <None Remove="Resources\Images\lock-01.png" />
 	  <None Remove="Resources\Images\lock.png" />
 	  <None Remove="Resources\Images\logo.png" />
 	  <None Remove="Resources\Images\mail.png" />
 	  <None Remove="Resources\Images\messages_nav.png" />
+	  <None Remove="Resources\Images\message_icon.png" />
+	  <None Remove="Resources\Images\plus_icon.png" />
+	  <None Remove="Resources\Images\profile_image.png" />
 	  <None Remove="Resources\Images\profile_nav.png" />
 	  <None Remove="Resources\Images\samplelogo.png" />
 	  <None Remove="Resources\Images\search_nav.png" />
+	  <None Remove="Resources\Images\settings_icon.png" />
 	  <None Remove="Resources\Splash\flash.svg" />
 	</ItemGroup>
 
@@ -82,6 +92,9 @@
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="UserAcount.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="UserProfile.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>

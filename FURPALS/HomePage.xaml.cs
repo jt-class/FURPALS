@@ -28,8 +28,8 @@ public partial class HomePage : ContentPage
 	}
 	private async void OnProfileClicked(object sender, EventArgs e)
 	{
-		await Navigation.PushAsync(new UserAccountPage());
-	}
+        await Navigation.PushAsync(new UserProfile());
+    }
 	
 }
 	

@@ -13,9 +13,9 @@ namespace FURPALS
 
         }
 
-        private void OnHomeButtonClicked(object sender, EventArgs e)
+        private async void OnHomeButtonClicked(object sender, EventArgs e)
         {
-
+            await Navigation.PushAsync(new HomePage());
         }
 
         private void OnPlusButtonClicked(object sender, EventArgs e)

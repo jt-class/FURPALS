@@ -7,9 +7,9 @@
              BackgroundColor="#F4D4D1">
 
     <ContentPage.Content>
-        <VerticalStackLayout Spacing="25.5">
+        <VerticalStackLayout Spacing="42">
 
-            <Grid BackgroundColor="#2A2A3A" Padding="10">
+            <Grid BackgroundColor="#2D3340" Padding="5">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="Auto"/>
                     <ColumnDefinition Width="*"/>
@@ -87,7 +87,7 @@
                 </VerticalStackLayout>
             </ScrollView>
 
-            <Grid BackgroundColor="#2A2A3A" HeightRequest="60" Padding="10">
+            <Grid BackgroundColor="#2D3340" HeightRequest="60" Padding="10">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="*"/>

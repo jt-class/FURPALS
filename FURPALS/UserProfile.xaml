@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FURPALS.UserProfile"
+	         Title="UserProfile"
+ 	         Shell.NavBarIsVisible="False"
+             BackgroundColor="#2D3340">
+
+    <Grid>
+        <!-- Main Content -->
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <!-- For the images -->
+            <RowDefinition Height="*"/>
+            <!-- For the scrollable content -->
+            <RowDefinition Height="47"/>
+            <!-- Height for the bottom navigation bar -->
+        </Grid.RowDefinitions>
+
+        <!-- Images Section (Logo and Heart) -->
+        <Grid Grid.Row="0" Margin="10, 10, 10, 0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+
+            <Image
+            Source="logo.png"
+            HeightRequest="64"
+            WidthRequest="64"
+            HorizontalOptions="Start"
+            VerticalOptions="Start"
+            Grid.Column="0"
+            Margin="30,-15,0,0"/>
+            
+            <Image
+             Source="back_icon.png"
+             HeightRequest="60"
+             WidthRequest="30"
+             HorizontalOptions="Start"
+             VerticalOptions="Start"
+             Margin="0,-10"/>
+            
+        </Grid>
+
+        <!-- Page Content (ScrollView) -->
+        <ScrollView
+        BackgroundColor="White"
+        Margin="0,20,0,0"
+        WidthRequest="415"
+        HeightRequest="680"
+        Grid.Row="1">
+            <StackLayout>
+                <!-- Your scrollable content goes here -->
+            </StackLayout>
+        </ScrollView>
+
+        <!-- Bottom Navigation Bar -->
+        <Grid Grid.Row="2" BackgroundColor="#2D3340">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <!-- Home Button -->
+            <ImageButton
+            Source="home.png"
+            WidthRequest="32"
+            HeightRequest="25"
+            HorizontalOptions="Center"
+            VerticalOptions="Center"
+            Command="{Binding NavigateToHomeCommand}"
+            Grid.Column="0"
+            />
+
+            <!-- Search Button -->
+            <ImageButton
+            Source="search_nav.png"
+            WidthRequest="32"
+            HeightRequest="25"
+            HorizontalOptions="Center"
+            VerticalOptions="Center"
+            Command="{Binding NavigateToSearchCommand}"
+            Grid.Column="1"
+            />
+
+            <!-- Add Button -->
+            <ImageButton
+            Source="add_nav.png"
+            WidthRequest="32"
+            HeightRequest="25"
+            HorizontalOptions="Center"
+            VerticalOptions="Center"
+            Command="{Binding NavigateToAddCommand}"
+            Grid.Column="2"
+            />
+
+            <!-- Messages Button -->
+            <ImageButton
+            Source="messages_nav.png"
+            WidthRequest="32"
+            HeightRequest="25"
+            HorizontalOptions="Center"
+            VerticalOptions="Center"
+            Command="{Binding NavigateToNotificationsCommand}"
+            Grid.Column="3"
+            />
+
+            <!-- Profile Button -->
+            <ImageButton
+            Source="profile_nav.png"
+            WidthRequest="32"
+            HeightRequest="25"
+            HorizontalOptions="Center"
+            VerticalOptions="Center"
+            Command="{Binding NavigateToProfileCommand}"
+            Grid.Column="4"
+            />
+        </Grid>
+    </Grid>
+</ContentPage>
