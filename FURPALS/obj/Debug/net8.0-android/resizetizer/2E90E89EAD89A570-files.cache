@@ -10,6 +10,7 @@ obj\Debug\net8.0-android\resizetizer\r\drawable\logo.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\mail.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\messages_nav.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\message_icon.png
+obj\Debug\net8.0-android\resizetizer\r\drawable\notifications.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\plus_icon.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\profile_image.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\profile_nav.png

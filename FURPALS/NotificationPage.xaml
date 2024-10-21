@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FURPALS.NotificationPage"
+             Shell.NavBarIsVisible="False"
+             BackgroundColor="#2D3340"
+             Title="NotificationPage">
+    <Grid>
+        <!-- Main Content -->
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <!-- For the images -->
+            <RowDefinition Height="*"/>
+            <!-- For the scrollable content -->
+            <RowDefinition Height="47"/>
+            <!-- Height for the bottom navigation bar -->
+        </Grid.RowDefinitions>
+
+        <!-- Images Section (Logo and Heart) -->
+        <Grid Grid.Row="0" Margin="10, 10, 10, 0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+
+            <Image
+             Source="logo.png"
+             HeightRequest="64"
+             WidthRequest="64"
+             HorizontalOptions="Start"
+             VerticalOptions="Start"
+             Grid.Column="0"
+             Margin="30,-10,0,0"/>
+
+            <Image
+                Source="notifications.png"
+                VerticalOptions="Start"
+                HorizontalOptions="Start"
+                Margin="100,10,0,0"/>
+
+        </Grid>
+
+        <!-- Page Content (ScrollView) -->
+        <ScrollView
+         BackgroundColor="#E9DADA"
+         Margin="0,20,0,0"
+         WidthRequest="415"
+         HeightRequest="680"
+         Grid.Row="1">
+            <StackLayout>
+                <Label
+                    Text="Notifications"
+                    FontSize="25"
+                    FontFamily="JosefinSans"
+                    TextTransform="Uppercase"
+                    TextColor="Black"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Start"
+                    Margin="0,30,0,0"/>
+            </StackLayout>
+
+        </ScrollView>
+
+        <!-- Bottom Navigation Bar -->
+        <Grid Grid.Row="2" BackgroundColor="#2D3340">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <!-- Home Button -->
+            <ImageButton
+             Source="home.png"
+             WidthRequest="32"
+             HeightRequest="32"
+             HorizontalOptions="Center"
+             VerticalOptions="Center"
+             Command="{Binding NavigateToHomeCommand}"
+             Grid.Column="0"
+             Clicked="OnHomeClicked"/>
+
+            <!-- Search Button -->
+            <ImageButton
+             Source="search_nav.png"
+             WidthRequest="32"
+             HeightRequest="32"
+             HorizontalOptions="Center"
+             VerticalOptions="Center"
+             Command="{Binding NavigateToSearchCommand}"
+             Grid.Column="1"
+             Clicked="OnSearchClicked"/>
+
+            <!-- Add Button -->
+            <ImageButton
+             Source="add_nav.png"
+             WidthRequest="32"
+             HeightRequest="32"
+             HorizontalOptions="Center"
+             VerticalOptions="Center"
+             Command="{Binding NavigateToAddCommand}"
+             Grid.Column="2"
+             Clicked="OnAddClicked"/>
+
+            <!-- Messages Button -->
+            <ImageButton
+             Source="messages_nav.png"
+             WidthRequest="32"
+             HeightRequest="32"
+             HorizontalOptions="Center"
+             VerticalOptions="Center"
+             Command="{Binding NavigateToNotificationsCommand}"
+             Grid.Column="3"
+             Clicked="OnMessagesClicked"/>
+
+            <!-- Profile Button -->
+            <ImageButton
+             Source="profile_nav.png"
+             WidthRequest="32"
+             HeightRequest="32"
+             HorizontalOptions="Center"
+             VerticalOptions="Center"
+             Command="{Binding NavigateToProfileCommand}"
+             Grid.Column="4"
+             Clicked="OnProfileClicked"/>
+        </Grid>
+    </Grid>
+</ContentPage>

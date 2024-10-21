@@ -66,6 +66,7 @@
 	  <None Remove="Resources\Images\mail.png" />
 	  <None Remove="Resources\Images\messages_nav.png" />
 	  <None Remove="Resources\Images\message_icon.png" />
+	  <None Remove="Resources\Images\notifications.png" />
 	  <None Remove="Resources\Images\plus_icon.png" />
 	  <None Remove="Resources\Images\profile_image.png" />
 	  <None Remove="Resources\Images\profile_nav.png" />
@@ -89,6 +90,9 @@
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="NewPage2.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="NotificationPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="UserAcount.xaml">

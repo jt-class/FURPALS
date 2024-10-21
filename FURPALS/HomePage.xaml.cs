@@ -8,8 +8,8 @@ public partial class HomePage : ContentPage
 	}
 	private async void OnHeartClicked(object sender, EventArgs e)
 	{
-
-	}
+        await Navigation.PushAsync(new NotificationPage());
+    }
 	private async void OnHomeClicked(object sender, EventArgs e)
 	{ 
 
