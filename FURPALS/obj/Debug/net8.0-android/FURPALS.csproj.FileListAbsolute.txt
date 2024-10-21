@@ -2056,3 +2056,10 @@ C:\Users\ANE MAE CRESPO\source\repos\FURPALS\FURPALS\obj\Debug\net8.0-android\st
 C:\Users\ANE MAE CRESPO\source\repos\FURPALS\FURPALS\obj\Debug\net8.0-android\stamp\_GenerateJavaStubs.stamp
 C:\Users\ANE MAE CRESPO\source\repos\FURPALS\FURPALS\obj\Debug\net8.0-android\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\ANE MAE CRESPO\source\repos\FURPALS\FURPALS\obj\Debug\net8.0-android\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\ANE MAE CRESPO\source\repos\FURPALS\FURPALS\obj\Debug\net8.0-android\resizetizer\r\drawable\heart.png
+C:\Users\ANE MAE CRESPO\source\repos\FURPALS\FURPALS\obj\Debug\net8.0-android\resizetizer\r\drawable\add_nav.png
+C:\Users\ANE MAE CRESPO\source\repos\FURPALS\FURPALS\obj\Debug\net8.0-android\resizetizer\r\drawable\home.png
+C:\Users\ANE MAE CRESPO\source\repos\FURPALS\FURPALS\obj\Debug\net8.0-android\resizetizer\r\drawable\home_nav.png
+C:\Users\ANE MAE CRESPO\source\repos\FURPALS\FURPALS\obj\Debug\net8.0-android\resizetizer\r\drawable\messages_nav.png
+C:\Users\ANE MAE CRESPO\source\repos\FURPALS\FURPALS\obj\Debug\net8.0-android\resizetizer\r\drawable\profile_nav.png
+C:\Users\ANE MAE CRESPO\source\repos\FURPALS\FURPALS\obj\Debug\net8.0-android\resizetizer\r\drawable\search_nav.png

@@ -142,7 +142,7 @@
         </Border>
 
         <Button
-            x:Name="ToCreateAccount_btn"
+            x:Name="CreateAccount_btn"
             Text="Create account"
             TextColor="#ffffff"
             FontSize="18"
@@ -151,7 +151,7 @@
             Margin="0,35,0,0"
             BackgroundColor="#2D3340"
             HorizontalOptions="Center"
-            Clicked="ToCreateAccount"/>
+            Clicked="OnCreateAccount"/> 
 
 
         <HorizontalStackLayout

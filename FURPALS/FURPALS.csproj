@@ -48,12 +48,20 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Images\add_nav.png" />
 	  <None Remove="Resources\Images\furpals.png" />
+	  <None Remove="Resources\Images\heart.png" />
+	  <None Remove="Resources\Images\heart_icon.png" />
+	  <None Remove="Resources\Images\home.png" />
+	  <None Remove="Resources\Images\home_nav.png" />
 	  <None Remove="Resources\Images\lock-01.png" />
 	  <None Remove="Resources\Images\lock.png" />
 	  <None Remove="Resources\Images\logo.png" />
 	  <None Remove="Resources\Images\mail.png" />
+	  <None Remove="Resources\Images\messages_nav.png" />
+	  <None Remove="Resources\Images\profile_nav.png" />
 	  <None Remove="Resources\Images\samplelogo.png" />
+	  <None Remove="Resources\Images\search_nav.png" />
 	  <None Remove="Resources\Splash\flash.svg" />
 	</ItemGroup>
 
@@ -68,6 +76,9 @@
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="NewPage1.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="NewPage2.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="UserAcount.xaml">

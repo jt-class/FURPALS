@@ -24,6 +24,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = FURPALS.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
+[C:/Users/ANE MAE CRESPO/source/repos/FURPALS/FURPALS/HomePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FURPALS.HomePage.xaml
+build_metadata.AdditionalFiles.TargetPath = HomePage.xaml
+build_metadata.AdditionalFiles.RelativePath = HomePage.xaml
+
 [C:/Users/ANE MAE CRESPO/source/repos/FURPALS/FURPALS/LoginPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = FURPALS.LoginPage.xaml
@@ -41,12 +47,6 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = FURPALS.Messages.xaml
 build_metadata.AdditionalFiles.TargetPath = Messages.xaml
 build_metadata.AdditionalFiles.RelativePath = Messages.xaml
-
-[C:/Users/ANE MAE CRESPO/source/repos/FURPALS/FURPALS/NewPage1.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = FURPALS.NewPage1.xaml
-build_metadata.AdditionalFiles.TargetPath = NewPage1.xaml
-build_metadata.AdditionalFiles.RelativePath = NewPage1.xaml
 
 [C:/Users/ANE MAE CRESPO/source/repos/FURPALS/FURPALS/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml

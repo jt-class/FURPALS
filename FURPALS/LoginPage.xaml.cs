@@ -25,7 +25,7 @@ public partial class LoginPage : ContentPage
             await DisplayAlert("Error", "Password must be at least 6 characters long.", "OK");
             return;
         }
-        await Navigation.PushAsync(new UserAccountPage()); //change the navgigation to homepage and fix the useraccount page layout
+        await Navigation.PushAsync(new HomePage()); //change the navgigation to homepage and fix the useraccount page layout
 
     }
 
@@ -47,13 +47,8 @@ public partial class LoginPage : ContentPage
     private async void ToSignUp(object sender, EventArgs e)
     {
 
-        await Navigation.PushAsync(new UserAccountPage());
+        await Navigation.PushAsync(new MainPage());
 
     }
 
-
-    private async void OnSignUp(object sender, EventArgs e)
-    {
-        await Navigation.PushAsync(new UserAccountPage());
-    }
 }

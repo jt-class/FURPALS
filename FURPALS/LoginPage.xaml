@@ -3,7 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="FURPALS.LoginPage"
              Title="LoginPage"
-             BackgroundColor="#E9DADA">
+             BackgroundColor="#E9DADA"
+             Shell.NavBarIsVisible="False">
 
     <StackLayout>
 
